@@ -1,5 +1,6 @@
 #!/bin/bash
-set -e  # abort on error
+# abort on error
+set -e  
 
 sudo apt install -y curl
 
