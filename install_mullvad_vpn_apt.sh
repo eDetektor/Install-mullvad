@@ -1,5 +1,7 @@
 #!/bin/bash
-set -e  # przerwij w razie błędu
+set -e  # abort on error
+
+sudo apt install -y curl
 
 # Download the Mullvad signing key
 curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc
