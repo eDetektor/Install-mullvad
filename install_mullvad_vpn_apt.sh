@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # abort on error
 set -e  
 
@@ -13,4 +14,3 @@ echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$(dpkg --print
 # Update and install
 apt update
 apt install -y mullvad-vpn
-
